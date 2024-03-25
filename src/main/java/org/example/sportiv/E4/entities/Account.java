@@ -41,7 +41,7 @@ public class Account implements IAccount {
                             + account
                             + ".txt"));
             this.clientName = reader.readLine();
-            String ticket = "";
+            String ticket;
             while((ticket = reader.readLine()) != null) {
                 tickets.add(ticket);
             }
@@ -54,7 +54,7 @@ public class Account implements IAccount {
     public IAccount copyAccount() {
         Account account = new Account();
         account.setClientName(this.clientName);
-        List<String> temporaryTickets = new ArrayList<String>();
+        List<String> temporaryTickets = new ArrayList<>();
         temporaryTickets.addAll(this.tickets);
         account.setTickets(temporaryTickets);
         return account;
