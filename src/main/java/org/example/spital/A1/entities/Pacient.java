@@ -1,4 +1,4 @@
-package org.example.spital.problema1.entities;
+package org.example.spital.A1.entities;
 
 public class Pacient {
     private boolean hasPatRabatabil;

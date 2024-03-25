@@ -1,6 +1,6 @@
-package org.example.spital.problema1.entities;
+package org.example.spital.A1.entities;
 
-import org.example.spital.problema1.repository.IBuilder;
+import org.example.spital.A1.repository.IBuilder;
 
 public class PacientBuilder implements IBuilder {
     private Pacient pacient;

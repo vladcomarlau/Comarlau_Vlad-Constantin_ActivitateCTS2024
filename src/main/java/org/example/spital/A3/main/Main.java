@@ -1,10 +1,10 @@
-package org.example.spital.problema3;
+package org.example.spital.A3.main;
 
-import org.example.spital.problema3.entities.personalMedical.APersonalSpital;
-import org.example.spital.problema3.entities.factories.FactoryAsistent;
-import org.example.spital.problema3.entities.factories.FactoryBrancardier;
-import org.example.spital.problema3.entities.factories.FactoryMedic;
-import org.example.spital.problema3.repository.IFactory;
+import org.example.spital.A3.entities.personalMedical.APersonalSpital;
+import org.example.spital.A3.entities.factories.FactoryAsistent;
+import org.example.spital.A3.entities.factories.FactoryBrancardier;
+import org.example.spital.A3.entities.factories.FactoryMedic;
+import org.example.spital.A3.repository.IFactory;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package org.example.spital.problema1;
+package org.example.spital.A1.main;
 
-import org.example.spital.problema1.entities.Pacient;
-import org.example.spital.problema1.entities.PacientBuilder;
+import org.example.spital.A1.entities.Pacient;
+import org.example.spital.A1.entities.PacientBuilder;
 
 public class Main {
     public static void main(String[] args) {

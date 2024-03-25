@@ -1,4 +1,4 @@
-package org.example.spital.problema3.entities.personalMedical;
+package org.example.spital.A3.entities.personalMedical;
 
 public class Asistent extends APersonalSpital {
     @Override
