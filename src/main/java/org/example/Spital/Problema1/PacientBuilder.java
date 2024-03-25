@@ -1,7 +1,7 @@
 package org.example.Spital.Problema1;
 
 public class PacientBuilder implements IBuilder {
-    private Pacient pacient = null;
+    private Pacient pacient;
 
     public PacientBuilder() {
         this.pacient = new Pacient(false, false,
