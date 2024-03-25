@@ -1,5 +1,5 @@
 package org.example.spital.A3.entities.personalMedical;
 
-public class APersonalSpital {
-    public void afisareRol() {};
+public abstract class APersonalSpital {
+    public abstract void afisareRol();
 }
