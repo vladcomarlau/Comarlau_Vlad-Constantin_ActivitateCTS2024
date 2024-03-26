@@ -8,10 +8,9 @@ public class Main {
     public static void main (String[] args) {
         Bilet bilet = new Bilet(1);
         VanzareBilet vanzareBilet = new VanzareBilet(bilet, 10);
+
         ProxyVanzareBilet proxyVanzareBilet = new ProxyVanzareBilet(vanzareBilet);
         proxyVanzareBilet.vinde();
-
-
         System.out.println(bilet);
 
         vanzareBilet.vinde();
