@@ -1,4 +1,4 @@
-package org.example.companiaSTB.F7.repository;
+package org.example.STB.F7.repository;
 
 public interface IBilet {
     void printeazaMesaj();

@@ -1,4 +1,4 @@
-package org.example.companiaSTB.F7.entities;
+package org.example.STB.F7.entities;
 
 public class BiletDecorat extends Decorator{
 

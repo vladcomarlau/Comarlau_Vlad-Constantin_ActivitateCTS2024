@@ -1,6 +1,6 @@
-package org.example.companiaSTB.F7.entities;
+package org.example.STB.F7.entities;
 
-import org.example.companiaSTB.F7.repository.IBilet;
+import org.example.STB.F7.repository.IBilet;
 
 import java.time.LocalDate;
 

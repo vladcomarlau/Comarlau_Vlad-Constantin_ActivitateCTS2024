@@ -1,8 +1,8 @@
-package org.example.companiaSTB.F7.main;
+package org.example.STB.F7.main;
 
-import org.example.companiaSTB.F7.entities.Bilet;
-import org.example.companiaSTB.F7.entities.BiletDecorat;
-import org.example.companiaSTB.F7.entities.Decorator;
+import org.example.STB.F7.entities.Bilet;
+import org.example.STB.F7.entities.BiletDecorat;
+import org.example.STB.F7.entities.Decorator;
 
 public class Main {
     public static void main (String[] args) {
