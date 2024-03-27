@@ -3,7 +3,7 @@ package org.example.STB.F13.entities;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ManagerAutobuze {
+public class ManagerMemento {
     private List<MementoAutobuz> listaAutobuze = new ArrayList<>();
 
     public void adaugaMemento(MementoAutobuz memento) {
