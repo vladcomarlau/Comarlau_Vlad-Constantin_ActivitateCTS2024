@@ -15,16 +15,8 @@ public class Autobuz {
         this.nrLocuri = nrLocuri;
     }
 
-    public String getSofer() {
-        return sofer;
-    }
-
     public void setSofer(String sofer) {
         this.sofer = sofer;
-    }
-
-    public float getConsumMediu() {
-        return consumMediu;
     }
 
     public void setConsumMediu(float consumMediu) {

@@ -4,7 +4,7 @@ import org.example.STB.F13.entities.Autobuz;
 import org.example.STB.F13.entities.ManagerAutobuze;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         ManagerAutobuze managerAutobuze = new ManagerAutobuze();
         Autobuz autobuz = new Autobuz("Gigel",23.2f,"X", 2024, 30);
         System.out.println(autobuz);
@@ -20,14 +20,10 @@ public class Main {
         managerAutobuze.adaugaMemento(autobuz.salvareMemento());
         System.out.println(autobuz);
 
-        try {
-            autobuz.undoToMemento(managerAutobuze.getMemento(1));
-            System.out.println(autobuz);
+        autobuz.undoToMemento(managerAutobuze.getMemento(1));
+        System.out.println(autobuz);
 
-            autobuz.undoToMemento(managerAutobuze.getLastMemento());
-            System.out.println(autobuz);
-        } catch (Exception e){
-
-        }
+        autobuz.undoToMemento(managerAutobuze.getLastMemento());
+        System.out.println(autobuz);
     }
 }

@@ -15,12 +15,12 @@ public class ManagerAutobuze {
     }
 
     public MementoAutobuz getLastMemento() throws Exception {
-        if(listaAutobuze.size() != 0) {
+        if(listaAutobuze.isEmpty()) {
+            throw new Exception("Nu exista stari salvate");
+        } else {
             MementoAutobuz memento = listaAutobuze.get(listaAutobuze.size()-1);
             listaAutobuze.remove(listaAutobuze.size()-1);
             return memento;
-        } else {
-            throw new Exception("Nu exista stari salvate");
         }
     }
 }
